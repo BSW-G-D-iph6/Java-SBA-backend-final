@@ -1,4 +1,4 @@
-package com.graphqljava.tutorial.tut;
+package com.graphqljava.tutorial.tut.db;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.graphqljava.tutorial.tut.db.Product;
+import com.graphqljava.tutorial.tut.db.db.Product;
+
 
 
 @RestController

@@ -1,9 +1,9 @@
-package com.graphqljava.tutorial.tut;
+package com.graphqljava.tutorial.tut.db;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import com.graphqljava.tutorial.tut.db.Product;
+import com.graphqljava.tutorial.tut.db.db.Product;
 
 //import com.graphqljava.tutorial.tut.db.User;
 //@Component

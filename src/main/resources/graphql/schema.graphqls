@@ -1,7 +1,9 @@
 type Query {
   bookById(id: ID): Book
     productById(id: ID): Product
-allPoduct: [Product]    
+allPoductMock: [Product]    
+allPoductReal: [ProductNew] 
+
   
 }
 
@@ -21,6 +23,19 @@ type Author {
 
 
 type Product {
+   	title: String,
+    benefit: String,
+    detail: String,
+    tags: [String],
+    price: Int,
+    img: String,
+    currency: String,
+    UUID: ID,
+}
+
+
+
+type ProductNew {
    	title: String,
     benefit: String,
     detail: String,

@@ -1,4 +1,4 @@
-package com.graphqljava.tutorial.tut;
+package com.graphqljava.tutorial.tut.db;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.graphqljava.tutorial.tut.db.Product;
+import com.graphqljava.tutorial.tut.db.db.Product;
 
 @Service
 public class serviceDB {

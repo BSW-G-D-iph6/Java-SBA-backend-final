@@ -1,4 +1,4 @@
-package com.graphqljava.tutorial.tut;
+package com.graphqljava.tutorial.tut.db;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

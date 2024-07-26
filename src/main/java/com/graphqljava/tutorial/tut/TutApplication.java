@@ -1,5 +1,6 @@
 package com.graphqljava.tutorial.tut;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -11,11 +12,16 @@ import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import com.graphqljava.tutorial.tut.dbnew.ProductService;
+import com.graphqljava.tutorial.tut.dbnew.product;
 @SpringBootApplication
 public class TutApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TutApplication.class, args);
+		 
+		
+		
 	}
 	@Configuration
 	@Profile("local")

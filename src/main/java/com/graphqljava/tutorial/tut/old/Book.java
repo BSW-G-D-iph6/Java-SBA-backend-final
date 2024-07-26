@@ -1,11 +1,11 @@
-package com.graphqljava.tutorial.tut;
+package com.graphqljava.tutorial.tut.old;
 
 import java.util.Arrays;
 import java.util.List;
 // public class Book {
     
 // }
-record Book(String id, String name, int pageCount, String authorId) {
+public record Book(String id, String name, int pageCount, String authorId) {
 
     private static List<Book> books = Arrays.asList(
         new Book("book-1", "Harry Potter and the Philosopher's Stone", 223, "author-1"),
